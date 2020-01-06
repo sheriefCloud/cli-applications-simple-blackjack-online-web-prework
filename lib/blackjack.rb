@@ -42,11 +42,13 @@ def hit?(deal_card)
     prompt_user
     cards = deal_card
     get_user_input
+        binding.pry
   else
     while input == "h"
       prompt_user
       get_user_input
       cards += deal_card
+          binding.pry
     end
     binding.pry
   end
