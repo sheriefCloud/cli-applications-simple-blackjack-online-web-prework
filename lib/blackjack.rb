@@ -55,13 +55,7 @@ def hit?(deal_card)
   end
 
 
-  # while input == "h"
-  #   prompt_user
-  #   input = get_user_input
-  #   h_new = deal_card
-  #   cards += h_new
-  #   #Sbinding.pry
-  # end
+
   cards
 end
 
