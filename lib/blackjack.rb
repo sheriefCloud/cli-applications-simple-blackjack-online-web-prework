@@ -36,12 +36,16 @@ def initial_round
 end
 
 def hit?(deal_card)
-  prompt_user
-  input = get_user_input
-  cards = deal_card
-  if input == "h"
-    cards += deal_card
+  input = ""
+  cards = 0
+  if input == ""
+    prompt_user
+    cards = deal_card
     get_user_input
+  else input == "h"
+    prompt_user
+    get_user_input
+    cards += deal_card
   end
 
 
