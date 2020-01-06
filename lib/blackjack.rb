@@ -46,6 +46,7 @@ def hit?(deal_card)
     prompt_user
     get_user_input
     cards += deal_card
+    binding.pry
   end
 
 
