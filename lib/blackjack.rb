@@ -39,6 +39,12 @@ def hit?(deal_card)
   prompt_user
   input = get_user_input
   cards = deal_card
+  if input == "h"
+    cards += deal_card
+    get_user_input
+  end
+
+
   # while input == "h"
   #   prompt_user
   #   input = get_user_input
